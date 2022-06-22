@@ -28,3 +28,4 @@ function decrement() {
 function test() {
 	kdowkdpo;
 } //esse tá funcionando
+

@@ -1,1 +1,0 @@
-console.log("Hello world!"); //irá mandar para o terminal e retornará string

@@ -82,7 +82,7 @@ body {
 
 .todo__item > input[type='checkbox']:checked  + div {
     text-decoration:line-through;
-}
+} /* Quando marcar a caixa no to do list, irá marcar a div como riscado */
 
 .todo__new-item{
     display: flex;

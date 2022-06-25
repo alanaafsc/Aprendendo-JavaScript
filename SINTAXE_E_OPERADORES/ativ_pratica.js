@@ -52,12 +52,15 @@ function SomaIguais(n1, n2){
 }
 
 function compararNumeros(n1, n2){
-    if(n1 === n2){
-        return SomaIguais(n1, n2);
+    if(!n1 || !n2){
+        return "Defina dois números!";
     }else{
-        return SomaDiferentes(n1, n2);
-    }
+        if(n1 === n2){
+            return SomaIguais(n1, n2);
+        }else{
+            return SomaDiferentes(n1, n2);
+    }}
 
 }
 
-console.log(compararNumeros(2, 2));
+console.log(compararNumeros(2,4));
